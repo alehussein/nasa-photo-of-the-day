@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+
+.nasaPhoto{
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  background-color: #63c18678;
+  border: solid;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  
+}
+.nasaPhoto img{
+  width: 45rem;
+  border-radius: 2rem;
+}
+
+h3 {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 15rem; 
+}
+
+.copy {
+  /* background-color: azure; */
+  display: flex;
+  align-self: flex-start;
+  margin-left: 15rem;
+  
+  }
+
+.date {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 15rem;
+}
+
+.explanation {
+  width: 50rem;
+  height: 10rem;
+  /* background-color: #cfd6e4; */
+  text-align:justify;
+}
